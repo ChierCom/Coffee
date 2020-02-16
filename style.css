@@ -1,0 +1,243 @@
+html { 
+  background: url("img/Background/cement.jpg") no-repeat center fixed; 
+  background-size: cover;
+}
+
+body {
+	margin:0;
+	font-family: 'Lato', Lato-black;
+	
+  padding: 0px;
+	}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+}
+.home{
+	position: absolute;
+		left: 795px;
+		top: 19px;
+		overflow: visible;
+		width: 348px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 104px;
+		color: rgba(59,59,59,1);
+}
+#SHOP {
+		position: absolute;
+		left: 774px;
+		top: 165px;
+		overflow: visible;
+		width: 86px;
+		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: SHOP.html;
+		cursor: pointer;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(59,59,59,1);
+	}
+	#ABOUT {
+		position: absolute;
+		left: 895px;
+		top: 165px;
+		overflow: visible;
+		width: 104px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(59,59,59,1);
+	}
+	#CONTACT {
+		position: absolute;
+		left: 1034px;
+		top: 165px;
+		overflow: visible;
+		width: 144px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Arial;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(59,59,59,1);
+	}
+#DIRECT_COFFEE {
+		position: absolute;
+		left: 50px;
+		top: 200px;
+		overflow: visible;
+		width: 382px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lato-Blacks;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 50px;
+		color: rgba(71,70,66,1);
+		letter-spacing: 0.15px;
+	}
+	#what {
+		position: absolute;
+		left: 50px;
+		top: 150px;
+		overflow: visible;
+		width: 382px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lato-Blacks;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(71,70,66,1);
+		letter-spacing: 0.15px;
+	}
+	.coffee{
+		  
+			position: absolute;
+			width: 1000px;
+			height: 500px;
+			left: 394px;
+			top: 268px;
+			overflow: visible;
+		
+	}
+
+	#A_cappuccino_is_an_espresso_ba {
+		position: absolute;
+		left: 1459px;
+		top: 359px;
+		overflow: visible;
+		width: 306px;
+		height: 164px;
+		line-height: 25px;
+		margin-top: -7px;
+		text-align: left;
+		font-family: Lato;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 11px;
+		color: rgba(71,70,66,1);
+		letter-spacing: 0.15px;
+	}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #C29C84;
+}
+
+ul.topnav li {float: left}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #663330;}
+
+ul.topnav li.right {float: center;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+.column {
+ float: right;
+  width: 25%;
+  height: 50%
+  padding: 15px;
+}
+.column3 {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+.column1 {
+  float: right;
+  width: 70%;
+  height: 70%
+  padding: 15px;
+}
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+  .column1 {
+    width: 100%;
+  }
+   .column3 {
+    width: 100%;
+  }
+.coffee{
+	width: 100%;
+	height:auto;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: center;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+#center {
+  text-align: center;
+  padding: 5px;
+  border: 5px solid green;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
